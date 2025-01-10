@@ -29,7 +29,7 @@
   .navigation > a{
       text-decoration: none;
       padding:5px 10px 5px 10px;
-      border: 2px solid  rgb(0, 106, 80) ;
+      border: 1px solid  rgb(0, 106, 80) ;
       color: rgb(0, 106, 80);
       font-weight: 600;
       text-align: center;
@@ -63,7 +63,7 @@
       
   }
   .hero-button{
-      border-radius: 3px;
+      border-radius: 6px;
       background: rgb(0, 106, 80);
       color: white;
       padding:10px 20px;
@@ -86,23 +86,67 @@ margin-left: 5%;
 
 
 
+.vision{
+    padding-top:60px;
+}
 
-
+  .vision_title{
+    font-weight: 700;
+    font-size: 25px;
+    
+  }
+  .vision_description{
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+  }
+.vision_button_1{
+    border-radius: 6px;
+    background: rgb(84, 144, 245);
+    padding: 10px 20px 11px 20px;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: 400;
+}
+.vision_button_2{
+    border-radius: 6px;
+    background:rgb(9, 161, 92);
+    padding: 10px 20px 11px 20px;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: 400;
+}
+.vision_button_3{
+    border-radius: 6px;
+    background:rgb(255, 194, 57);
+    padding: 10px 20px 11px 20px;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: 400;
+}
 
   .parent_of_vision{
 
-width: 100%;
-display: flex;
-gap: 20px;
-padding: 20px;
-
+    width: 100%;
+    display: flex;
+    gap: 40px;
 
   }
 
-  .child_of_vision{
-
-
-width: 300px;
-
-
-  }
+.child_of_vision_1{
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+    padding: 32px;
+}
+.child_of_vision_2{
+    border-radius: 16px;
+    background: rgb(198, 228, 214);
+    padding: 32px;
+}
+.child_of_vision_3{
+    border-radius: 16px;
+    background:rgb(247, 235, 207);
+    padding: 32px;
+}
