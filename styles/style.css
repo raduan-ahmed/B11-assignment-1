@@ -122,6 +122,7 @@ margin-left: 5%;
     width: 100%;
     display: flex;
     gap: 40px;
+    justify-content: space-evenly;
     margin-bottom:35px;
 
   }
@@ -183,7 +184,8 @@ margin-left: 5%;
     border-radius: 16px;
     background: rgb(255, 255, 255);
     padding:40px;
-    margin-bottom:20px;
+    margin:20px auto;
+    
   
 }
 .recent_news{
@@ -221,4 +223,60 @@ margin-left: 5%;
     font-size: 16px;
     font-weight: 500;
     border: none;
+}
+
+
+/* Donate For Bangladesh */
+.donate-container{
+    margin-top: 60px;
+}
+.donate_title{
+    font-weight: 700;
+    font-size: 25px;
+
+}
+.donate_description{
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+}
+.donate_ammount{
+    padding: 40px 100px;
+}
+.donate_other{
+    padding: 15px 400px;
+    margin: 32px 0px;
+    /* width: 80%; */
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(255, 255, 255);
+
+}
+.donate_button{
+    border-radius: 7px;
+    background: rgb(0, 106, 80);
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+}
+.donate-container{
+    width: 100%;
+    text-align: center;
+}
+.demo_ammount{
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin: 0px 24px;
+    padding: 20px 35px;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 48px;
+}
+#demo_ammount_2{
+   background-color:rgb(198, 228, 214);
 }
