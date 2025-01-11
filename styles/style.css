@@ -1,16 +1,15 @@
+/* body section -style */
 body{
-
     background-color: rgb(234, 234, 234);
 }
 .body_main{
-  
     margin: 1% 10%;
     font-family:"Fira Sans";
-    
-  }
-/* Banner Section*/
-  .hero_section{
-    
+}
+
+
+/* Banner Section -style*/
+.hero_section{
     width: 100%;
     height: 80vh;
     background-color: rgb(198, 228, 214);
@@ -18,92 +17,86 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
 
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
-   
-  }
+.navigation > a{
+    text-decoration: none;
+    padding:5px 10px 5px 10px;
+    border: 1px solid  rgb(0, 106, 80) ;
+    color: rgb(0, 106, 80);
+    font-weight: 600;
+    text-align: center;
+    border-radius: 4px;
+}
 
-
-  
-  .navigation{
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-     
-  }
-  .navigation > a{
-      text-decoration: none;
-      padding:5px 10px 5px 10px;
-      border: 1px solid  rgb(0, 106, 80) ;
-      color: rgb(0, 106, 80);
-      font-weight: 600;
-      text-align: center;
-      border-radius: 4px;
-  }
-
-  .navigation >a:hover{
+.navigation >a:hover{
     background-color: #eade91;
     transition: 0.5s;
 }
 
-  .logo{
-      font-weight: 600;
-      font-size: 18px;
-  }
+.logo{
+    font-weight: 600;
+    font-size: 18px;
+}
 
-  .hero-title{
-      color: rgba(14, 14, 14, 0.5);
-      font-weight: 600;
-      font-size: 15px;
-  }
-  .hero-description{
-      font-weight: 700;
-      font-size: 50px;
+.hero-title{
+    color: rgba(14, 14, 14, 0.5);
+    font-weight: 600;
+    font-size: 15px;
+}
 
-  
-      
-  }
-  .hero-button{
-      border-radius: 6px;
-      background: rgb(0, 106, 80);
-      color: white;
-      padding:10px 20px;
-      border: none;
-  
-  }
-  .hero-button:hover{
+.hero-description{
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.hero-button{
+    border-radius: 6px;
+    background: rgb(0, 106, 80);
+    color: white;
+    padding:10px 20px;
+    border: none;
+}
+
+.hero-button:hover{
     background-color: #eade91;
     transition: 0.5s;
     color: black;
-  }
+}
 
-  .hero-container-1{
+.hero-container-1{
+    margin-left: 5%;
 
-margin-left: 5%;
+}
 
-
-  }
-
-  .hero-container-2{
+.hero-container-2{
     margin-right: 5%;
-  }
+}
 
 
 
-  /* A vision of Future */
+  /* A vision of Future -style */
 .vision{
     padding-top:80px;
 }
 
-  .vision_title{
+.vision_title{
     font-weight: 700;
-    font-size: 25px;
+    font-size: 30px;
+    color: rgb(14, 14, 14);
     
-  }
-  .vision_description{
+}
+.vision_description{
     font-weight: 400;
     color: rgba(14, 14, 14, 0.7);
-  }
+}
+
 .vision_button_1{
     border-radius: 6px;
     background:  rgb(84, 144, 245);
@@ -116,7 +109,6 @@ margin-left: 5%;
 .vision_button_1:hover{
     background-color:rgb(250, 121, 70);
     transition: 0.5s;
-   
 }
 
 .vision_button_2{
@@ -147,7 +139,7 @@ margin-left: 5%;
     transition: 0.5s;
 }
 
-  .parent_of_vision{
+.parent_of_vision{
 
     width: 100%;
     display: flex;
@@ -156,7 +148,7 @@ margin-left: 5%;
     margin-bottom:35px;
     margin-top: 25px;
 
-  }
+}
 
 .child_of_vision_1{
     border-radius: 16px;
@@ -175,20 +167,19 @@ margin-left: 5%;
 }
 
 
-/* quote-section */
+/* quote-section -style */
 .quote-section{
-  
+
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     background: rgb(255, 255, 255);
     padding:30px 20px;
- }
+}
 
 .q_img{
     position: absolute;
     z-index: 1;
 }
-
 
 .quote_description{
 z-index: 2;
@@ -197,6 +188,7 @@ z-index: 2;
     font-weight: 400;
     text-align: left;
 }
+
 .quote_chief{
     color: rgba(14, 14, 14, 0.8);
     font-size: 20px;
@@ -204,6 +196,7 @@ z-index: 2;
     line-height: 24px;
     text-align: left;
 }
+
 .quote_chief_advisor{
     color: rgba(14, 14, 14, 0.6);;
     font-size: 16px;
@@ -213,16 +206,14 @@ z-index: 2;
 }
 
 
-/* Recent news section */
-.recent_news2{
 
+/* Recent news section -style */
+.recent_news2{
     width: 100%;
     margin-top: 80px;
 }
     
-    
 .new_content_2{
-    
     margin-top:30px;
     width: 100%;
     display: flex;
@@ -232,25 +223,35 @@ z-index: 2;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     background: rgb(255, 255, 255);
-    height:auto;
-      
+    height:auto; 
 }
     
 .news_img2{
     margin: 40px;
     border-radius: 16px;
 }
+
+.news-title2{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 25px;
+    font-weight: 700;
+   
+}
     
+.date-time-info{
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 13px;
+    font-weight: 400;
+}
+
 .news_1_description2{
     margin-right: 80px;
-    
 }
-    
     
 .news_1_description3{
-    margin-left: 80px;
-        
+    margin-left: 80px;    
 }
+
 .news_button2{
     border-radius: 7px;
     background: rgb(0, 106, 80);
@@ -268,22 +269,26 @@ z-index: 2;
 
 
 
-/* Donate For Bangladesh */
+/* Donate For Bangladesh -style */
 .donate-container{
     margin-top: 80px;
 }
+
 .donate_title{
     font-weight: 700;
-    font-size: 25px;
-
+    font-size: 30px;
+    color: rgb(14, 14, 14);
 }
+
 .donate_description{
     font-weight: 400;
     color: rgba(14, 14, 14, 0.7);
 }
+
 .donate_ammount{
     padding: 40px 100px;
 }
+
 .donate_other{
     margin: 32px 0px;
     width: 85%;
@@ -292,7 +297,6 @@ z-index: 2;
     box-sizing: border-box;
     border: 1px solid rgba(14, 14, 14, 0.15);
     background: rgb(255, 255, 255);
-
 }
 
 .donate_button{
@@ -304,6 +308,7 @@ z-index: 2;
     font-weight: 500;
     border: none;
 }
+
 .donate_button:hover{
     background-color:rgb(242, 255, 121);
     transition: 0.5s;
@@ -313,6 +318,7 @@ z-index: 2;
     width: 100%;
     text-align: center;
 }
+
 .demo_all_ammount{
     display: flex;
     justify-content:space-around;
@@ -330,7 +336,6 @@ z-index: 2;
     background-color: #28a745;
     color: white;
 }
-
 
 .demo_all_ammount button:nth-child(1):hover {
     background-color: #007bff;
@@ -359,11 +364,14 @@ z-index: 2;
     font-weight: 700;
     line-height: 48px;
 }
+
 #demo_ammount_2{
    background-color:rgb(198, 228, 214);
 }
 
-/* News letter section*/
+
+
+/* News letter section -style*/
 .nes_l_cotent{
     text-align: center;
     margin-top: 80px;
@@ -371,6 +379,7 @@ z-index: 2;
     border-radius: 16px;
     padding:60px 100px ;
 }
+
 .n_l_button{
     border-radius: 0px 8px 8px 0px;
     background: rgb(0, 106, 80);
@@ -382,16 +391,18 @@ z-index: 2;
     font-weight: 500;
     
 }
+
 .n_l_button:hover{
     background-color:rgb(216, 3, 3);
     transition: 0.5s;
 }
 
 .email_here{
-    padding: 14px 200px;
+    padding: 13.5px 380px 13.5px 20px;
     margin: 32px 0px;
+    border-radius: 8px 0px 0px 8px;
     /* width: 80%; */
-    text-align: center;
+    /* text-align:left; */
     box-sizing: border-box;
     border: 1px solid rgba(14, 14, 14, 0.15);
     background: rgb(255, 255, 255);
@@ -399,7 +410,9 @@ z-index: 2;
 }
 
 
-/* Footer section */
+
+
+/* Footer section -style*/
 .footer_title{
     font-weight: 700;
 }
@@ -408,6 +421,7 @@ z-index: 2;
     text-align: center;
     margin-top: 80px;
 }
+
 hr{
     border: 1px solid rgba(14, 14, 14, 0.1);
     width: 1000px;
@@ -415,3 +429,6 @@ hr{
 
 }
 
+
+
+/* All-style-successfully completed */
