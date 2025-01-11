@@ -1,6 +1,6 @@
 body{
 
-    background-color: rgb(255, 254, 254);
+    background-color: rgb(234, 234, 234);
 }
 .body_main{
   
@@ -70,6 +70,11 @@ body{
       padding:10px 20px;
       border: none;
   
+  }
+  .hero-button:hover{
+    background-color: #eade91;
+    transition: 0.5s;
+    color: black;
   }
 
   .hero-container-1{
@@ -149,6 +154,7 @@ margin-left: 5%;
     gap: 40px;
     justify-content: space-evenly;
     margin-bottom:35px;
+    margin-top: 25px;
 
   }
 
@@ -171,16 +177,21 @@ margin-left: 5%;
 
 /* quote-section */
 .quote-section{
-    
+  
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     background: rgb(255, 255, 255);
     padding:30px 20px;
  }
+
+.q_img{
+    position: absolute;
+    z-index: 1;
+}
+
+
 .quote_description{
-    background-image: url(../assets/quote-bg.png);
-    background-repeat: no-repeat;
-    background-position: left top;
+z-index: 2;
     color: rgba(14, 14, 14, 0.8);
     font-size: 16px;
     font-weight: 400;
@@ -201,46 +212,46 @@ margin-left: 5%;
     text-align: left;
 }
 
-.new-content-1{
+
+/* Recent news section */
+.recent_news2{
+
+    width: 100%;
+    margin-top: 80px;
+}
+    
+    
+.new_content_2{
+    
+    margin-top:30px;
     width: 100%;
     display: flex;
-    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     background: rgb(255, 255, 255);
-    padding:40px;
-    margin:20px auto;
+    height:auto;
+      
+}
     
-  
+.news_img2{
+    margin: 40px;
+    border-radius: 16px;
 }
-.recent_news{
-    padding-top: 80px;
-}
-#news-2{
-    padding-right: 5px;
-}
-.news-title{
-    color: rgba(14, 14, 14, 0.8);
-    font-size: 32px;
-    font-weight: 700;
     
+.news_1_description2{
+    margin-right: 80px;
     
 }
-
-.news_1_description{
-    /* margin-right:10px;
-    max-width: 700px; */
-    width: 650px;
-    height: 300px;
-}
-.news_img{
-    border: 1px solid white;
-    border-radius: 30px;
-    /* width: 350px;
-    height: 300px; */
     
+    
+.news_1_description3{
+    margin-left: 80px;
+        
 }
-.news_button{
+.news_button2{
     border-radius: 7px;
     background: rgb(0, 106, 80);
     padding: 10px 20px;
@@ -249,11 +260,12 @@ margin-left: 5%;
     font-weight: 500;
     border: none;
 }
-.news_button:hover{
+.news_button2:hover{
     background-color:rgb(147, 158, 226);
     transition: 0.5s;
     color: black;
 }
+
 
 
 /* Donate For Bangladesh */
@@ -273,15 +285,16 @@ margin-left: 5%;
     padding: 40px 100px;
 }
 .donate_other{
-    padding: 15px 400px;
     margin: 32px 0px;
-    /* width: 80%; */
+    width: 85%;
+    height: 40px;
     text-align: center;
     box-sizing: border-box;
     border: 1px solid rgba(14, 14, 14, 0.15);
     background: rgb(255, 255, 255);
 
 }
+
 .donate_button{
     border-radius: 7px;
     background: rgb(0, 106, 80);
@@ -300,9 +313,17 @@ margin-left: 5%;
     width: 100%;
     text-align: center;
 }
+.demo_all_ammount{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    gap: 40;
+    margin-top: 30px;
+
+}
 
 .demo_ammount:hover{
-    transform: scale(1.05);
+    transition: 0.5s;
 }
 
 #demo_ammount_2:hover {
@@ -353,13 +374,13 @@ margin-left: 5%;
 .n_l_button{
     border-radius: 0px 8px 8px 0px;
     background: rgb(0, 106, 80);
-    padding: 11px 25px;
+    padding: 10px 25px 12.5px 25px;
     font-weight: 500;
     border:none;
     color: rgb(255, 255, 255);
     font-size: 18px;
     font-weight: 500;
-    line-height: 22px;
+    
 }
 .n_l_button:hover{
     background-color:rgb(216, 3, 3);
@@ -393,3 +414,4 @@ hr{
     background-color: whitesmoke;
 
 }
+
