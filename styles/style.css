@@ -41,6 +41,11 @@ body{
       border-radius: 4px;
   }
 
+  .navigation >a:hover{
+    background-color: #eade91;
+    transition: 0.5s;
+}
+
   .logo{
       font-weight: 600;
       font-size: 18px;
@@ -96,13 +101,19 @@ margin-left: 5%;
   }
 .vision_button_1{
     border-radius: 6px;
-    background: rgb(84, 144, 245);
+    background:  rgb(84, 144, 245);
     padding: 10px 20px 11px 20px;
     color: white;
     border: none;
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 500;
 }
+.vision_button_1:hover{
+    background-color:rgb(250, 121, 70);
+    transition: 0.5s;
+   
+}
+
 .vision_button_2{
     border-radius: 6px;
     background:rgb(9, 161, 92);
@@ -110,8 +121,13 @@ margin-left: 5%;
     color: white;
     border: none;
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 500;
 }
+.vision_button_2:hover{
+    background-color:rgb(88, 88, 76);
+    transition: 0.5s;
+}
+
 .vision_button_3{
     border-radius: 6px;
     background:rgb(255, 194, 57);
@@ -119,7 +135,11 @@ margin-left: 5%;
     color: white;
     border: none;
     font-size: 15px;
-    font-weight: 400;
+    font-weight: 500;
+}
+.vision_button_3:hover{
+    background-color:rgb(224, 137, 251);
+    transition: 0.5s;
 }
 
   .parent_of_vision{
@@ -229,6 +249,11 @@ margin-left: 5%;
     font-weight: 500;
     border: none;
 }
+.news_button:hover{
+    background-color:rgb(147, 158, 226);
+    transition: 0.5s;
+    color: black;
+}
 
 
 /* Donate For Bangladesh */
@@ -266,10 +291,41 @@ margin-left: 5%;
     font-weight: 500;
     border: none;
 }
+.donate_button:hover{
+    background-color:rgb(242, 255, 121);
+    transition: 0.5s;
+    color: black;
+}
 .donate-container{
     width: 100%;
     text-align: center;
 }
+
+.demo_ammount:hover{
+    transform: scale(1.05);
+}
+
+#demo_ammount_2:hover {
+    background-color: #28a745;
+    color: white;
+}
+
+
+.demo_all_ammount button:nth-child(1):hover {
+    background-color: #007bff;
+    color: white;
+}
+
+.demo_all_ammount button:nth-child(3):hover {
+    background-color: #ffc107;
+    color: black;
+}
+
+.demo_all_ammount button:nth-child(4):hover {
+    background-color: #dc3545; 
+    color: white;
+}
+
 .demo_ammount{
     box-sizing: border-box;
     border: 1px solid rgba(14, 14, 14, 0.15);
@@ -305,6 +361,11 @@ margin-left: 5%;
     font-weight: 500;
     line-height: 22px;
 }
+.n_l_button:hover{
+    background-color:rgb(216, 3, 3);
+    transition: 0.5s;
+}
+
 .email_here{
     padding: 14px 200px;
     margin: 32px 0px;
@@ -324,7 +385,7 @@ margin-left: 5%;
 
 .footer_content{
     text-align: center;
-    margin-top: 60px;
+    margin-top: 80px;
 }
 hr{
     border: 1px solid rgba(14, 14, 14, 0.1);
